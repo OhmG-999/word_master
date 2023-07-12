@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: monospace;
+  background-color: #1A162F;
+  background-image: "";
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-style: italic;
+  stroke: #FF10F0;
+  stroke-width: 2px;
+  border-bottom: 1px solid black;
+  padding-bottom: 3rem;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.word input {
+  width: 3rem;
+  height: 3rem;
+  margin: 3px 2px;
+  font-size: xx-large;
+  border: 4px solid #FF10F0;
+  text-align: center;
+}
+
+/*
+input[type="text"]:read-only{
+    background-color: rgb(220, 218, 218);
+}*/
+.correct-position {
+  background-color: green;
+}
+
+.incorrect-position {
+  background-color: orange;
+}
+
+.does-not-exist {
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */
